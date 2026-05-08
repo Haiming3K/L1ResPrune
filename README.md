@@ -91,7 +91,7 @@ The other steps can largely be followed directly; note that the pruning function
   ```shell
   python train.py -s <path to COLMAP or NeRF Synthetic dataset> --eval -r -1 --kernel_size = 0.1 
   ```
- Parameter $\tau=0.5$
+ Parameter $\tau=0.05$
 
 ### AAA-Gaussians
 
@@ -109,7 +109,7 @@ The other steps can largely be followed directly; note that the pruning function
   counter  2000000
   flowers  3500000
   ```
-  Parameter $\tau=0.2$
+  Parameter $\tau=0.02$
 ### Triangle-Splatting
   The overall idea is consistent; However, the center position of the Triangle needs to be computed. Our calculation method is:
    
@@ -125,6 +125,6 @@ The other steps can largely be followed directly; note that the pruning function
   ```
   For outdoor scenes, add `--outdoor` as well.
 
-  Parameter $\tau=0.2$
+  Parameter $\tau=0.02$
 
 

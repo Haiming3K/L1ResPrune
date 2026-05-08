@@ -15,9 +15,14 @@ This project is used to reproduce. The paper proposes a general and theoreticall
  Approximate Form:
 
  $score(\theta ,i)=\iint_\Omega  (\frac{\alpha_i^\theta(x)}{1-\alpha_i(x)^\theta})^2 dx$
-
+ 
  In 3DGS:
 $\alpha=oG^{2D}$
+
+### Prune Condition
+$E_{\theta\sim U(view_i)}(score(\theta,i))<\tau$
+
+ where $U(.)$  is a uniform distribution. $view_i$ is the set of views in the training set that contain primitive(Gaussians, triangle.......) $i$.
 
 ## Code Structure
 

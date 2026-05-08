@@ -22,7 +22,7 @@ $\alpha=oG^{2D}$
 ### Prune Condition
 $E_{\theta\sim U(view_i)}(score(\theta,i))<\tau$
 
- where $U(.)$  is a uniform distribution. $view_i$ is the set of views in the training set that contain primitive(Gaussians, triangle.......) $i$.
+ where $U(.)$  is a uniform distribution. $view_i$ is the set of views in the training set that contain primitive $i$(Gaussians, triangle.......) .
 
 ## Code Structure
 
